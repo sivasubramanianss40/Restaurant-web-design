@@ -1,0 +1,269 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(first.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid #050505;
+}
+
+#navbarNav{
+    margin-left: 70%;
+    margin-top: -5px;
+    color: #3F2305;
+}
+.navbar-brand{
+    margin-left: 3%;
+}
+#brand{
+    color: #3F2305;
+    font-size: 24px;
+    
+}
+section h1{
+    
+    margin-left: 30%;
+    color: #3F2305;
+    padding-top: 15%;
+    position: absolute;
+    text-shadow: 2px 2px 20px #F5F5F5 , 0px 0px 5px #000;
+    
+    
+}
+.p{
+    background-color: #f2ead363 ;
+    height: 100%;
+   
+}
+section h5{
+    position: absolute;
+    padding-top: 20%;
+    padding-left: 39%;
+    color: #DFD7BF;
+    text-shadow: 2px 2px 5px #3F2305;
+    font-size: 22px;    
+}
+
+.newsletter
+{
+    margin-left: 41%;
+    margin-top: 24%;
+    position: absolute;
+    
+}
+.newsletter form{
+    width: 250px;
+    max-width: 100%;
+    
+     
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #3F2305;
+    outline: none;
+    border-radius: 30px;
+    background-color: #F2EAD3;
+
+    
+}
+
+.newsletter form input:last-child{
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #3F2305;
+    color: white;
+    box-shadow: 0px 0px 5px black ,0px 0px 5px gray;
+    top: 7px;
+    right: 6px;
+    margin-top: -19.7%;
+    margin-left: 55.5%;
+    
+
+}
+
+.slide{
+    background-color: #F2EAD3;
+    width: 100%;
+    height: 100hv;
+    padding: 100px 0px;
+    border-bottom: 1px double #3F2305;
+
+}
+
+#carouselExampleDark
+{
+    
+    width: 50%;
+    border-radius: 30px;
+    margin-left: 49%;
+    box-shadow: 1px 1px 15px 10px #DFD7BF;
+    
+}
+.card{
+    margin-top: -45%;
+    margin-left: 3%;
+    height: 10px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px 2px #3F2305;
+}
+.card img{
+    border-radius: 30px;
+}
+#c2{
+    margin-top: 2%;
+    margin-left: 27%;
+    border-radius: 30px;
+}
+#c1{
+    border-radius: 30px;
+}
+.c1t{
+    
+    color: #3F2305;
+    font-size: 16px;
+    margin-top: -29%;
+    margin-left: 22.5%;
+    position: relative;
+    padding-bottom: 8px;
+    
+}
+.c2t{
+    position: relative;
+    margin-right: 76%;
+    margin-top: -12%;
+    color: green;
+    text-align:end;
+    padding-top: 1%;
+}
+.st{
+    padding-left: 56%;
+    margin-top: -42%;
+    position: absolute;
+    font-size: 24px;
+}
+
+.sec3{
+    width: 100%;
+    height: 100hv;
+    padding: 300px 0px;
+    background-color: #DFD7BF;
+}
+
+.sec3 h2{
+    margin-left: 40%;
+    position: absolute;
+    margin-top: -17%;
+    font-size: 30px;
+}
+#msg1{
+    margin-left: 7%;
+    margin-top: -10%;
+}
+#msg2{
+    margin-left: 37%;
+    margin-top: -15.6%;
+}
+#msg3{
+    margin-left: 67%;
+    margin-top: -12.5%;
+}
+#msg4{
+    margin-left: 7%;
+    margin-top: 11%;
+}
+#msg5{
+    margin-left: 37%;
+    margin-top: -10.8%;
+}
+#f6{
+    border-radius: 20px;
+    margin-left: 67%;
+    margin-top: -18.8%;
+
+}
+
+#header{
+    color: #DFD7BF;
+    border-top-left-radius: 0px ;
+
+    background-color: #3F2305;
+}
+
+
+.toast-body input{
+    margin-left: 70px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5%;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 10px 1px #3F2305;
+    text-transform: uppercase;
+}
+.toast-body textarea{
+    margin-left: 72px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 10px 1px #3F2305;
+    text-transform: capitalize;
+}
+.toast-body .btn{
+    margin-left: 126px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 10px 1px #3F2305;
+    background-color: #3F2305;
+    color: #F2EAD3;
+}
+
+.last{
+    margin-top: -10%;
+    border-top:3px double #3F2305;
+    width: 100%;
+    height: 100hv;
+    padding: 100px 0px;
+    background-color:#F2EAD3;
+}
+
+.last table,tr,th,td{
+    font-size: 24px;
+    margin-left: 15%;
+}
+.last .t1{
+    margin-left: 7%;
+    text-align: center;
+}
+.last .t2{
+    margin-left: 42%;
+    margin-top: -8.5%;
+    text-align: center;
+}
+.last .t3{
+    margin-left: 78%;
+    margin-top: -6.2%;
+    text-align: center;
+}
+.copy{
+    margin-left: 38.5%;
+    margin-top: 5%;
+    margin-bottom: -5%;
+}
